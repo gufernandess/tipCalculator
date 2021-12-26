@@ -1,0 +1,37 @@
+@media (max-width: 1020px) {
+
+    .white-box { width: 90% !important; }
+
+    .custom-box,
+    .reset-box { width: 45% !important; }
+
+    footer,
+    footer a { font-size: 0.7rem !important; }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    header { 
+        align-items: flex-start !important; 
+        height: 10vh !important;
+        padding-top: 40px;
+    }
+
+    main { height: 80vh !important; }
+
+    .white-box {
+        height: 80% !important;
+        padding: 30px;
+    }
+
+    .custom-box,
+    .reset-box { width: 90% !important; height: 45% !important;}
+
+    footer,
+    footer a { 
+        height: 10vh !important; 
+        font-size: 0.65rem !important;
+    }
+    
+}
