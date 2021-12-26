@@ -1,37 +1,47 @@
-@media (max-width: 1020px) {
+@media screen and (max-width: 1020px) {
 
-    .white-box { width: 90% !important; }
+    .white-box { width: 90%; }
 
     .custom-box,
-    .reset-box { width: 45% !important; }
+    .reset-box { width: 45%; }
+
+    .value {
+        font-size: 1.3rem;
+    }
 
     footer,
-    footer a { font-size: 0.7rem !important; }
+    footer a { font-size: 0.7rem; }
     
 }
 
 @media screen and (max-width: 600px) {
 
     header { 
-        align-items: flex-start !important; 
-        height: 10vh !important;
+        align-items: flex-start; 
+        height: 10vh;
         padding-top: 40px;
     }
 
-    main { height: 80vh !important; }
+    main { height: 95vh; }
 
     .white-box {
-        height: 80% !important;
+        height: 80%;
         padding: 30px;
     }
 
     .custom-box,
-    .reset-box { width: 90% !important; height: 45% !important;}
+    .reset-box { width: 100%; height: 45%; }
 
     footer,
-    footer a { 
-        height: 10vh !important; 
-        font-size: 0.65rem !important;
-    }
+    footer a { height: 10vh; font-size: 0.65rem; }
     
+}
+
+@media screen and (max-width: 400px) {
+    .reset-button { font-size: 0.5rem; margin-bottom: 25px; height: 30px; }
+
+    .principal,
+    .subtitle { font-size: 0.6rem; }
+
+    .value { font-size: 1rem; }
 }

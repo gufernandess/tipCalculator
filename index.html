@@ -11,10 +11,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <link rel="stylesheet" href="settings/reset.css">
-  <link rel="stylesheet" href="settings/responsive.css">
   <link rel="stylesheet" href="css/generic/background.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/elements.css">
+  <link rel="stylesheet" href="settings/responsive.css">
   
   <title>Frontend Mentor | Tip calculator app</title>
 
@@ -26,7 +26,19 @@
   <main>
     <div class="white-box">
       <div class="custom-box"></div>
-      <div class="reset-box"></div>
+      <div class="reset-box">
+        <div class="values">
+          <div>
+            <span class="principal">Tip Amount<br><span class="subtitle">/ person</span></span>
+            <p class="value">$00.00</p>
+          </div>
+          <div>
+            <span class="principal">Total<br><span class="subtitle">/ person</span></span>
+            <p class="value">$00.00</p>
+          </div>
+        </div>
+        <button class="reset-button">RESET</button>
+      </div>
     </div>
   </main>
   <footer>

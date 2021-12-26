@@ -1,5 +1,5 @@
 @import url('../../settings/global.css');
 
-* {
+body {
     background-color: var(--Light-grayish-cyan);
 }

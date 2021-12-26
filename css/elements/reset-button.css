@@ -1,0 +1,12 @@
+.reset-button {
+    background-color: var(--Strong-cyan);
+    border: none;
+    border-radius: 5px;
+    color: var(--Very-dark-cyan);
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding: 7px;
+    width: 80%;
+    height: auto;
+}
