@@ -29,14 +29,14 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start; 
+    align-items: stretch; 
 }
 
 .tips {
     display: grid;
     gap: 12px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .custom-box :nth-child(odd) {

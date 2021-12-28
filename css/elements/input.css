@@ -1,11 +1,17 @@
 input {
-    background-color: var(--Very-light-grayish-cyan);
+    background-color: var(--Very-light-grayish-cyan) !important;
     border: none;
     border-radius: 5px;
+    color: var(--Very-dark-cyan);
+    font-weight: 700;
     padding: 4px;
     height: auto;
     width: 100%;
 }
+
+#bill { background: url('../../images/icon-dollar.svg') no-repeat 10px 12px; background-size: 12px; }
+
+#people { background: url('../../images/icon-person.svg') no-repeat 10px 14px; background-size: 12px; }
 
 label {
     color: var(--Very-dark-grayish-cyan);
@@ -13,7 +19,8 @@ label {
     font-weight: 700;
 }
 
-.tips label {
-    grid-column: 1 / 4;
-    justify-self:baseline;
+.tips label { 
+    grid-column: 1 / 4; 
+    align-self: flex-end;
+    justify-self: left; 
 }
