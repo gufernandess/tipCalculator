@@ -25,9 +25,25 @@ main {
     height: 408px;
 }
 
-.custom-box { 
-    background-color: var(--White); 
-    border: 1px solid black; 
+.custom-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+.tips {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.custom-box :nth-child(odd) {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .reset-box { 

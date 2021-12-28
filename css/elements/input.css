@@ -1,0 +1,19 @@
+input {
+    background-color: var(--Very-light-grayish-cyan);
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    height: auto;
+    width: 100%;
+}
+
+label {
+    color: var(--Very-dark-grayish-cyan);
+    font-size: 0.65rem;
+    font-weight: 700;
+}
+
+.tips label {
+    grid-column: 1 / 4;
+    justify-self:baseline;
+}

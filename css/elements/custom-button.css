@@ -1,0 +1,17 @@
+.custom-button {
+    background-color: var(--Very-dark-cyan);
+    color: var(--White);
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+}
+
+.custom-button:hover { background-color: var(--Strong-cyan); color: var(--Very-dark-cyan); }
+
+.custom-button:last-child { background-color: var(--Very-light-grayish-cyan); color: var(--Dark-grayish-cyan); }
