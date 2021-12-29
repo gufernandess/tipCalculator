@@ -5,6 +5,7 @@ input {
     color: var(--Very-dark-cyan);
     font-weight: 700;
     padding: 4px;
+    text-align: right;
     height: auto;
     width: 100%;
 }
