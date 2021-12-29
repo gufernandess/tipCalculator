@@ -34,12 +34,12 @@
         </div>
         <div class="tips">
           <label for="">Select tip %</label>
-          <button class="custom-button" value="0.05">5%</button>
-          <button class="custom-button" value="0.1">10%</button>
-          <button class="custom-button" value="0.15">15%</button>
-          <button class="custom-button" value="0.25">25%</button>
-          <button class="custom-button" value="0.5">50%</button>
-          <input type="number" min="1" class="custom-button" placeholder="Custom" required>
+          <button class="custom-button" value="0.05" onclick="catchTip(this.value)">5%</button>
+          <button class="custom-button" value="0.1" onclick="catchTip(this.value)">10%</button>
+          <button class="custom-button" value="0.15" onclick="catchTip(this.value)">15%</button>
+          <button class="custom-button" value="0.25" onclick="catchTip(this.value)">25%</button>
+          <button class="custom-button" value="0.5" onclick="catchTip(this.value)">50%</button>
+          <input type="number" min="1" class="custom-button" onclick="catchTip(this.value)" placeholder="Custom" required>
         </div>
         <div>
           <label for="people">Number of People</label>
@@ -57,7 +57,7 @@
             <p class="value">$00.00</p>
           </div>
         </div>
-        <button class="reset-button">RESET</button>
+        <button class="reset-button">CALC</button>
       </div>
     </div>
   </main>
