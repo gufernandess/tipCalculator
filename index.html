@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/elements.css">
   <link rel="stylesheet" href="settings/responsive.css">
+
+  <script src="js/script.js" defer></script>
   
   <title>Frontend Mentor | Tip calculator app</title>
 
@@ -32,12 +34,12 @@
         </div>
         <div class="tips">
           <label for="">Select tip %</label>
-          <button class="custom-button">5%</button>
-          <button class="custom-button">10%</button>
-          <button class="custom-button">15%</button>
-          <button class="custom-button">25%</button>
-          <button class="custom-button">50%</button>
-          <button class="custom-button">Custom</button>
+          <button class="custom-button" value="0.05">5%</button>
+          <button class="custom-button" value="0.1">10%</button>
+          <button class="custom-button" value="0.15">15%</button>
+          <button class="custom-button" value="0.25">25%</button>
+          <button class="custom-button" value="0.5">50%</button>
+          <input type="number" min="1" class="custom-button" placeholder="Custom" required>
         </div>
         <div>
           <label for="people">Number of People</label>

@@ -10,3 +10,5 @@
     width: 80%;
     height: auto;
 }
+
+.reset-button:hover { background-color: var(--Light-grayish-cyan); }

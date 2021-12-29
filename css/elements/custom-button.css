@@ -14,4 +14,4 @@
 
 .custom-button:hover { background-color: var(--Strong-cyan); color: var(--Very-dark-cyan); }
 
-.custom-button:last-child { background-color: var(--Very-light-grayish-cyan); color: var(--Dark-grayish-cyan); }
+.custom-button:last-child { background-color: var(--Very-light-grayish-cyan); color: var(--Very-dark-cyan); }

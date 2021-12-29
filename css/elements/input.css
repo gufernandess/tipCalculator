@@ -4,6 +4,7 @@ input {
     border-radius: 5px;
     color: var(--Very-dark-cyan);
     font-weight: 700;
+    outline-color: var(--Strong-cyan);
     padding: 4px;
     text-align: right;
     height: auto;
